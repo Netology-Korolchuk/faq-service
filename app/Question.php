@@ -88,5 +88,6 @@ class Question extends Model
         if ($this->status == 2 || !$this->status) {
             $this->status = 0;
         }
+    return False;
     }
 }
